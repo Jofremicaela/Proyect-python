@@ -1,32 +1,4 @@
 
-## ejemplo metodo append()
-
-""" ventas = [1,2,3]
-ventas.append(100)
-
-print(ventas)  """ 
-
-# Salida: [1,2,3,100]
-
-## ejercicio practico: crar una lista vacia de ventas,agregar a la lista venta.append(monto) , crear bucle while para recopilar datos y  usar bucle for para imprimir ventas <>
-""" 
-ventas = []
-contador = 0
-while contador < 4 :
-    monto= int(input('Ingrese el valor del producto: '))
-    contador+=1
-    ventas.append(monto)
-for monto in ventas:
-    print('Valor ingresado:', monto) """
-    
-
-""" 
-## ejemplo metodo remove()
-productos = ["pan", "leche", "queso"]
-productos.remove("pan")
-
-print(productos)  
-# Salida: ["leche", "queso"] """
 
 ##Ejercicio final de clase 7
 
